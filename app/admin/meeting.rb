@@ -1,4 +1,5 @@
 ActiveAdmin.register Meeting do
+  permit_params :title, :date_time
 
 
   # See permitted parameters documentation:
